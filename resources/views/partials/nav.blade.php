@@ -18,8 +18,6 @@
                             <li>
                             <a class="nav-link" href="{{route('suplier')}}">Data Supliar</a>
                             </li>
-                            <a class="nav-link" href="{{route('profil')}}">Data Profil</a>
-                            </li>
                             
                     </ul>
 

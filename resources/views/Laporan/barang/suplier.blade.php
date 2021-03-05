@@ -20,25 +20,28 @@
             @endif
 
             <u>
-                <h4>Laporan Barang Masuk</h4>
+                <h4>Laporan Suplier Masuk</h4>
             </u>
 
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>Kode Suplier |</th>
                         <th>Nama Suplier |</th>
-                        <th>Kode Barang |</th>
-                        <th>Nama Barang |</th>
-                        <th>Quantity |</th>
+                        <th>Alamat |</th>
+                        <th>Email |</th>
+                        <th>Phone |</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
                     @forelse ($barang as $get)
                         <tr>
+                            <td>{{$get->suplier->kode_suplier}}</td>
                             <td>{{$get->suplier->nama}} |</td>
-                            <td>{{$get->kode_barang}} |</td>
-                            <td>{{$get->nama_barang}} |</td>
-                            <td>{{$get->quantity}} |</td>
+                            <td>{{$get->suplier->alamat}} </td>
+                            <td>{{$get->suplier->email}} </td>
+                            <td>{{$get->suplier->phone}}</td>
                         </tr>
                     @empty
                         <tr>

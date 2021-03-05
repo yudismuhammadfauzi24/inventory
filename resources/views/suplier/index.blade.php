@@ -8,7 +8,7 @@
             <div class="mr-auto">
                 <a href="{{route('suplier.create')}}" class="btn btn-info mr-2">Tambah suplier Baru</a>
             </div>
-            <form action="{{route('laporan.periode.barang')}}" method="GET">
+            <form action="{{route('laporan.periode.suplier')}}" method="GET">
                 <div class="row">
                     <div class="col-md-4">          
                         <div class="form-group">

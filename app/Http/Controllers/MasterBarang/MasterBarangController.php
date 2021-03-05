@@ -35,7 +35,6 @@ class MasterBarangController extends Controller
     {
         $suplier = Barang::create([
             'suplier_id'=>$request->suplier_id,
-            'kode_barang'=>$request->kode_barang,
             'nama_barang'=>$request->nama_barang,
             'quantity'=>$request->quantity,
         ]);

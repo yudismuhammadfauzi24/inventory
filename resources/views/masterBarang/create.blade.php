@@ -9,10 +9,6 @@
                         <form action="{{route('master-barang.store')}}" method="post">
                             @csrf
                             <div class="form-group">
-                                <label for="kode_barang"> Kode Barang</label>
-                                <input type="text" name="kode_barang" id="kode_barang" class="form-control">
-                            </div>
-                            <div class="form-group">
                                 <label for="nama_barang"> Nama Barang</label>
                                 <input type="text" name="nama_barang" id="nama_barang" class="form-control">
                             </div>
